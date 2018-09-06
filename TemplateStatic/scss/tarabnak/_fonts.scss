@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Lalezar|Montserrat');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/*
+IranSans Font attach
+ */
+@include font-face(
+		'isans',
+		font_files(
+				'isans/eot/IRANSansWeb(FaNum).eot',
+				'isans/ttf/IRANSansWeb(FaNum).ttf',
+				'isans/woff/IRANSansWeb(FaNum).woff',
+				'isans/woff2/IRANSansWeb(FaNum).woff2'
+		),
+		'isans/eot/IRANSansWeb(FaNum).eot',
+		normal,
+		normal
+);
+
+@include font-face(
+		'isans',
+		font_files(
+				'isans/eot/IRANSansWeb(FaNum)_Black.eot',
+				'isans/ttf/IRANSansWeb(FaNum)_Black.ttf',
+				'isans/woff/IRANSansWeb(FaNum)_Black.woff',
+				'isans/woff2/IRANSansWeb(FaNum)_Black.woff2'
+		),
+		'isans/eot/IRANSansWeb(FaNum)_Black.eot',
+		900,
+		normal
+);
+
+@include font-face(
+		'isans',
+		font_files(
+				'isans/eot/IRANSansWeb(FaNum)_Bold.eot',
+				'isans/ttf/IRANSansWeb(FaNum)_Bold.ttf',
+				'isans/woff/IRANSansWeb(FaNum)_Bold.woff',
+				'isans/woff2/IRANSansWeb(FaNum)_Bold.woff2'
+		),
+		'isans/eot/IRANSansWeb(FaNum)_Bold.eot',
+		bold,
+		normal
+);
+
+@include font-face(
+		'isans',
+		font_files(
+				'isans/eot/IRANSansWeb(FaNum)_Medium.eot',
+				'isans/ttf/IRANSansWeb(FaNum)_Medium.ttf',
+				'isans/woff/IRANSansWeb(FaNum)_Medium.woff',
+				'isans/woff2/IRANSansWeb(FaNum)_Medium.woff2'
+		),
+		'isans/eot/IRANSansWeb(FaNum)_Medium.eot',
+		500,
+		normal
+);
+
+@include font-face(
+		'isans',
+		font_files(
+				'isans/eot/IRANSansWeb(FaNum)_Light.eot',
+				'isans/ttf/IRANSansWeb(FaNum)_Light.ttf',
+				'isans/woff/IRANSansWeb(FaNum)_Light.woff',
+				'isans/woff2/IRANSansWeb(FaNum)_Light.woff2'
+		),
+		'isans/eot/IRANSansWeb(FaNum)_Light.eot',
+		300,
+		normal
+);
+
+@include font-face(
+		'isans',
+		font_files(
+				'isans/eot/IRANSansWeb(FaNum)_UltraLight.eot',
+				'isans/ttf/IRANSansWeb(FaNum)_UltraLight.ttf',
+				'isans/woff/IRANSansWeb(FaNum)_UltraLight.woff',
+				'isans/woff2/IRANSansWeb(FaNum)_UltraLight.woff2'
+		),
+		'isans/eot/IRANSansWeb(FaNum)_UltraLight.eot',
+		200,
+		normal
+);
+
+
+/*
+IranYekan Font attach
+ */
+@include font-face(
+		'iyekan',
+		font_files(
+				'iyekan/eot/iranyekanwebbold.eot',
+				'iyekan/ttf/iranyekanwebbold.ttf',
+				'iyekan/woff/iranyekanwebbold.woff',
+				'iyekan/woff2/iranyekanwebbold.woff2'
+		),
+		'iyekan/eot/iranyekanwebbold.eot',
+		bold,
+		normal
+);
+
+@include font-face(
+		'iyekan',
+		font_files(
+				'iyekan/eot/iranyekanwebregular.eot',
+				'iyekan/ttf/iranyekanwebregular.ttf',
+				'iyekan/woff/iranyekanwebregular.woff',
+				'iyekan/woff2/iranyekanwebregular.woff2'
+		),
+		'iyekan/eot/iranyekanwebregular.eot',
+		normal,
+		normal
+);
+
+@include font-face(
+		'iyekan',
+		font_files(
+				'iyekan/eot/iranyekanweblight.eot',
+				'iyekan/ttf/iranyekanweblight.ttf',
+				'iyekan/woff/iranyekanweblight.woff',
+				'iyekan/woff2/iranyekanweblight.woff2'
+		),
+		'iyekan/eot/iranyekanweblight.eot',
+		300,
+		normal
+);
+
+.iryekan {
+	font-family: 'iyekan', 'Montserrat' !important;
+}
+
+.isans {
+	font-family: 'isans', 'Montserrat' !important;
+}
+
+.lalezar {
+	font-family: 'Lalezar', 'Montserrat' !important;
+}

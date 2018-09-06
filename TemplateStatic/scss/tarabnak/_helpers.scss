@@ -1,0 +1,63 @@
+// Space Helpers
+$spaceamounts: (0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100); // Adjust this to include the pixel amounts you need.
+$sides: (top, bottom, left, right); // Leave this variable alone
+
+@each $space in $spaceamounts {
+	@each $side in $sides {
+		.mg-#{str-slice($side, 0, 1)}-#{$space} {
+			margin-#{$side}: #{$space}px;
+		}
+
+		.pd-#{str-slice($side, 0, 1)}-#{$space} {
+			padding-#{$side}: #{$space}px;
+		}
+	}
+}
+
+@function to-string($value) {
+	@return inspect($value);
+}
+
+.btn-outline {
+	background-color: transparent;
+	line-height: 33px;
+	i {
+		vertical-align: middle;
+	}
+}
+
+.btn-rounded {
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+}
+
+@each $c in $colors {
+	$color: nth($c, 2);
+	$color-hex: nth($color, 1);
+	$color-value: str_slice(to-string($color-hex), 8);
+	.btn-outline.btn-#{nth($c, 1)} {
+		border: 1px solid $color-value;
+		color: $color-value;
+
+		&:hover {
+			background-color: $color-value;
+			color: #FFFFFF;
+		}
+	}
+}
+
+.btn-outline.btn-white {
+	border: 1px solid #ffffff;
+	color: #FFFFFF;
+
+	&:hover {
+		background-color: #ffffff;
+		color: #000;
+	}
+}
+
+.container {
+	width: 90% !important;
+}
+

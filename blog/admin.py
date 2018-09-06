@@ -1,7 +1,6 @@
 from django.contrib import admin
 from .models import Post,Comment, Category
 import datetime
-from django.core.paginator import Paginator
 
 
 def make_published(modeladmin, request, queryset):

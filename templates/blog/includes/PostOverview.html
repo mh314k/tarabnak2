@@ -13,7 +13,7 @@
 		</div>
 		<div class="card-stacked">
 			<div class="card-content">
-				<a href="{% url 'blog:post' post.PublishTime.year post.PublishTime.month post.PublishTime.day post.Slug %}">
+				<a href="{{ post.get_absolute_url }}">
 					<h4 class="iryekan mg-t-0">{{ post.Title }}</h4>
 				</a>
 				<div class="postBody">
@@ -39,7 +39,7 @@
 
 				</span>
 
-				<a href="{% url 'blog:post' post.PublishTime.year post.PublishTime.month post.PublishTime.day post.Slug %}" class="btn waves-effect btn-more left waves-light hoverable">
+				<a href="{{ post.get_absolute_url }}" class="btn waves-effect btn-more left waves-light hoverable">
 					ادامه مطلب
 					<i class="do0k-circle-left"></i>
 				</a>

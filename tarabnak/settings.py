@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'blog',
     'taggit',
     'django_jalali',
+    'tinymce',
+    'filebrowser'
 ]
 
 MIDDLEWARE = [
@@ -120,8 +122,27 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
-STATICFILES_DIRS = [os.path.join(BASE_DIR, "static/"), ]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, "TemplateStatic/"), ]
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 MEDIA_ROOT = os.path.join(BASE_DIR,'media/')
 MEDIA_URL = '/media/'
+
+TINYMCE_DEFAULT_CONFIG = {
+    'selector': 'textarea',
+    'theme': 'modern',
+    'plugins': 'link image preview codesample contextmenu table code lists',
+    'toolbar1': 'formatselect | bold italic underline | alignleft aligncenter alignright alignjustify '
+               '| bullist numlist | outdent indent | table | link image | codesample | preview code',
+    'contextmenu': 'formats | link image',
+    'menubar': False,
+    'inline': False,
+    'statusbar': False,
+    'width': 'auto',
+    'height': 360,
+    'filebrowser': True
+}
+
+FILEBROWSER_DIRECTORY = ''
+DIRECTORY = ''
