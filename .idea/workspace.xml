@@ -2,134 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2df9d38-0fbb-4645-8c8e-997e1dc1df14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/migrations/0013_auto_20180906_2317.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/0014_auto_20180906_2318.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/migrations/0015_comment_commenteremail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/migrations/0016_auto_20180907_0433.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/migrations/0017_auto_20180907_0437.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/do0kFonts/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/css/do0kFonts/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/fonts/do0k.eot" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/css/fonts/do0k.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/fonts/do0k.svg" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/css/fonts/do0k.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/fonts/do0k.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/css/fonts/do0k.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/fonts/do0k.woff" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/css/fonts/do0k.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/materialize.css" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/css/materialize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/materialize.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/css/materialize.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/materialize.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/css/materialize.rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/materialize.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/css/materialize.rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/materialize/materialize.css" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/css/materialize/materialize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/css/owl.carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/owl.carousel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/css/owl.carousel.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/owl.theme.default.css" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/css/owl.theme.default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/owl.theme.default.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/css/owl.theme.default.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/tarabnak.css" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/css/tarabnak.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/do0k.eot" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/do0k.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/do0k.svg" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/do0k.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/do0k.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/do0k.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/do0k.woff" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/do0k.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/eot/IRANSansWeb(FaNum).eot" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/eot/IRANSansWeb(FaNum).eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/eot/IRANSansWeb(FaNum)_Black.eot" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/eot/IRANSansWeb(FaNum)_Black.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/eot/IRANSansWeb(FaNum)_Bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/eot/IRANSansWeb(FaNum)_Bold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/eot/IRANSansWeb(FaNum)_Light.eot" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/eot/IRANSansWeb(FaNum)_Light.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/eot/IRANSansWeb(FaNum)_Medium.eot" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/eot/IRANSansWeb(FaNum)_Medium.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/eot/IRANSansWeb(FaNum)_UltraLight.eot" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/eot/IRANSansWeb(FaNum)_UltraLight.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/ttf/IRANSansWeb(FaNum).ttf" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/ttf/IRANSansWeb(FaNum).ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/ttf/IRANSansWeb(FaNum)_Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/ttf/IRANSansWeb(FaNum)_Black.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/ttf/IRANSansWeb(FaNum)_Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/ttf/IRANSansWeb(FaNum)_Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/ttf/IRANSansWeb(FaNum)_Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/ttf/IRANSansWeb(FaNum)_Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/ttf/IRANSansWeb(FaNum)_Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/ttf/IRANSansWeb(FaNum)_Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/ttf/IRANSansWeb(FaNum)_UltraLight.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/ttf/IRANSansWeb(FaNum)_UltraLight.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/woff/IRANSansWeb(FaNum).woff" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/woff/IRANSansWeb(FaNum).woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/woff/IRANSansWeb(FaNum)_Black.woff" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/woff/IRANSansWeb(FaNum)_Black.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/woff/IRANSansWeb(FaNum)_Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/woff/IRANSansWeb(FaNum)_Bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/woff/IRANSansWeb(FaNum)_Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/woff/IRANSansWeb(FaNum)_Light.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/woff/IRANSansWeb(FaNum)_Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/woff/IRANSansWeb(FaNum)_Medium.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/woff/IRANSansWeb(FaNum)_UltraLight.woff" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/woff/IRANSansWeb(FaNum)_UltraLight.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/woff2/IRANSansWeb(FaNum).woff2" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/woff2/IRANSansWeb(FaNum).woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/woff2/IRANSansWeb(FaNum)_Black.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/woff2/IRANSansWeb(FaNum)_Black.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/woff2/IRANSansWeb(FaNum)_Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/woff2/IRANSansWeb(FaNum)_Bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/woff2/IRANSansWeb(FaNum)_Light.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/woff2/IRANSansWeb(FaNum)_Light.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/woff2/IRANSansWeb(FaNum)_Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/woff2/IRANSansWeb(FaNum)_Medium.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/isans/woff2/IRANSansWeb(FaNum)_UltraLight.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/isans/woff2/IRANSansWeb(FaNum)_UltraLight.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iyekan/eot/iranyekanwebbold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/iyekan/eot/iranyekanwebbold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iyekan/eot/iranyekanweblight.eot" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/iyekan/eot/iranyekanweblight.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iyekan/eot/iranyekanwebregular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/iyekan/eot/iranyekanwebregular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iyekan/ttf/iranyekanwebbold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/iyekan/ttf/iranyekanwebbold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iyekan/ttf/iranyekanweblight.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/iyekan/ttf/iranyekanweblight.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iyekan/ttf/iranyekanwebregular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/iyekan/ttf/iranyekanwebregular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iyekan/woff/iranyekanwebbold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/iyekan/woff/iranyekanwebbold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iyekan/woff/iranyekanweblight.woff" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/iyekan/woff/iranyekanweblight.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iyekan/woff/iranyekanwebregular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/iyekan/woff/iranyekanwebregular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iyekan/woff2/iranyekanwebbold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/iyekan/woff2/iranyekanwebbold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iyekan/woff2/iranyekanweblight.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/iyekan/woff2/iranyekanweblight.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iyekan/woff2/iranyekanwebregular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/fonts/iyekan/woff2/iranyekanwebregular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/7628887.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/img/7628887.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/97800.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/img/97800.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/advertise.png" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/img/advertise.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/blu_flower_by_wuddie06-d64rdcw.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/img/blu_flower_by_wuddie06-d64rdcw.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/nature-gress-wallpaper.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/img/nature-gress-wallpaper.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/materialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/js/materialize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/materialize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/js/materialize.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/owl.carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/js/owl.carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/js/owl.carousel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/tarabnak.js" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/js/tarabnak.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/do0kFonts/fonts/do0k.eot" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/do0kFonts/fonts/do0k.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/do0kFonts/fonts/do0k.svg" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/do0kFonts/fonts/do0k.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/do0kFonts/fonts/do0k.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/do0kFonts/fonts/do0k.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/do0kFonts/fonts/do0k.woff" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/do0kFonts/fonts/do0k.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/do0kFonts/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/do0kFonts/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/do0kFonts/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/do0kFonts/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_badges.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_badges.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_carousel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_chips.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_chips.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_collapsible.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_collapsible.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_color-classes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_color-classes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_color-variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_color-variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_datepicker.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_datepicker.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_icons-material-design.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_icons-material-design.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_materialbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_materialbox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_modal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_normalize.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_preloader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_preloader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_pulse.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_pulse.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_sidenav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_sidenav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_table_of_contents.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_table_of_contents.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_tabs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_tapTarget.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_tapTarget.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_timepicker.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_timepicker.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_toast.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_toast.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_tooltip.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_transitions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_transitions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_waves.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/_waves.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/forms/_checkboxes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/forms/_checkboxes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/forms/_file-input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/forms/_file-input.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/forms/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/forms/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/forms/_input-fields.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/forms/_input-fields.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/forms/_radio-buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/forms/_radio-buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/forms/_range.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/forms/_range.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/forms/_select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/forms/_select.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/forms/_switches.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/components/forms/_switches.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/materialize/materialize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/materialize/materialize.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/tarabnak.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/tarabnak.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/tarabnak/_animate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/tarabnak/_animate.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/tarabnak/_flex.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/tarabnak/_flex.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/tarabnak/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/tarabnak/_fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/tarabnak/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/tarabnak/_helpers.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/tarabnak/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/tarabnak/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/tarabnak/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateStatic/scss/tarabnak/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarabnak/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarabnak/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarabnak/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarabnak/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/includes/PostOverview.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/includes/PostOverview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/materialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/materialize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/materialize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/materialize.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_icons-material-design.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/materialize/components/_icons-material-design.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_materialbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/materialize/components/_materialbox.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_preloader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/materialize/components/_preloader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/materialize/components/_slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_tapTarget.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/materialize/components/_tapTarget.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_transitions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/materialize/components/_transitions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/_waves.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/materialize/components/_waves.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/forms/_file-input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/materialize/components/forms/_file-input.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/forms/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/materialize/components/forms/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/materialize/components/forms/_switches.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/materialize/components/forms/_switches.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/includes/Commentreplies.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/includes/Commentreplies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/includes/Comments.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/includes/Comments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/includes/Post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/includes/Post.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -229,29 +124,31 @@
     <session id="-1136506911">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="391" />
-          <entry key="py" value="801" />
-          <entry key="py@tarabnak" value="31" />
+          <entry key="html" value="621" />
+          <entry key="py" value="1462" />
+          <entry key="py@tarabnak" value="32" />
+          <entry key="txt" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CommandLine" value="23" />
-          <entry key="HTML" value="391" />
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="801" />
+          <entry key="DjangoUrlPath" value="4" />
+          <entry key="HTML" value="617" />
+          <entry key="PLAIN_TEXT" value="54" />
+          <entry key="Python" value="1462" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="7" />
-          <entry key="py" value="14" />
+          <entry key="html" value="13" />
+          <entry key="py" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="7" />
-          <entry key="Python" value="14" />
+          <entry key="HTML" value="13" />
+          <entry key="Python" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -265,58 +162,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/blog/includes/Post.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/blog/BlogIndex.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="74" column="79" selection-start-line="74" selection-start-column="79" selection-end-line="74" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/blog/includes/Comments.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/blog/includes/PostOverview.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/models.py">
+        <entry file="file://$PROJECT_DIR$/templates/blog/includes/Commentreplies.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-960">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tarabnak/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="e#632#664#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tarabnak/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2089">
-              <caret line="145" selection-start-line="145" selection-end-line="145" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -363,10 +273,6 @@
         <option value="$PROJECT_DIR$/static/scss/tarabnak/_flex.scss" />
         <option value="$PROJECT_DIR$/static/scss/tarabnak/_fonts.scss" />
         <option value="$PROJECT_DIR$/templates/blog/BlogPost.html" />
-        <option value="$PROJECT_DIR$/blog/views.py" />
-        <option value="$PROJECT_DIR$/templates/blog/includes/Comments.html" />
-        <option value="$PROJECT_DIR$/templates/blog/includes/Commentreplies.html" />
-        <option value="$PROJECT_DIR$/templates/blog/includes/Post.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/blog/includes/Paginator.html" />
         <option value="$PROJECT_DIR$/static/scss/do0kFonts/style.scss" />
@@ -385,7 +291,12 @@
         <option value="$PROJECT_DIR$/tarabnak/settings.py" />
         <option value="$PROJECT_DIR$/blog/admin.py" />
         <option value="$PROJECT_DIR$/templates/blog/includes/PostOverview.html" />
+        <option value="$PROJECT_DIR$/templates/blog/includes/Post.html" />
         <option value="$PROJECT_DIR$/blog/models.py" />
+        <option value="$PROJECT_DIR$/blog/forms.py" />
+        <option value="$PROJECT_DIR$/blog/views.py" />
+        <option value="$PROJECT_DIR$/templates/blog/includes/Comments.html" />
+        <option value="$PROJECT_DIR$/templates/blog/includes/Commentreplies.html" />
       </list>
     </option>
   </component>
@@ -571,17 +482,33 @@
       <option name="project" value="LOCAL" />
       <updated>1535716983372</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add tinymce4, filebrowser and get_absolute_url for models">
+      <created>1536271124440</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1536271124440</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="42712000" />
   </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1026" height="749" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24949084" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13136457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -595,9 +522,9 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32857144" />
       <window_info anchor="bottom" id="NativeScript" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49796334" weight="0.6698413" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49796334" visible="true" weight="0.22222222" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50203663" side_tool="true" weight="0.31904763" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49898168" weight="0.52380955" />
       <window_info anchor="bottom" id="Database Changes" order="11" sideWeight="0.49898168" weight="0.32857144" />
@@ -752,7 +679,8 @@
     <MESSAGE value="reformating commenting system" />
     <MESSAGE value="Merge remote-tracking branch 'origin'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="adding category parent auto add to posts" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding category parent auto add to posts" />
+    <MESSAGE value="add tinymce4, filebrowser and get_absolute_url for models" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tinymce4, filebrowser and get_absolute_url for models" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/static/config.rb" />
@@ -793,23 +721,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TemplateStatic/fonts/do0k.eot">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/includes/Comments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="36" column="51" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="uml://Python/#/home/mh314k/PycharmProjects/tarabnak/blog/models.py">
       <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -933,13 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/includes/Post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/BlogPost.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -988,13 +892,6 @@
     <entry file="file://$PROJECT_DIR$/blog/templatetags/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/BlogIndex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="74" column="79" selection-start-line="74" selection-start-column="79" selection-end-line="74" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1007,13 +904,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/includes/Commentreplies.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <element signature="e#16#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1024,27 +917,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/admin.py">
+    <entry file="file://$PROJECT_DIR$/blog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state>
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tarabnak/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2089">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/includes/PostOverview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1058,22 +936,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/urls.py">
+    <entry file="file://$PROJECT_DIR$/tarabnak/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="2089">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog/BlogIndex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="74" column="79" selection-start-line="74" selection-start-column="79" selection-end-line="74" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-960">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="27">
+          <caret line="172" column="10" lean-forward="true" selection-start-line="172" selection-start-column="4" selection-end-line="172" selection-end-column="15" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog/includes/Post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog/includes/PostOverview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog/includes/Comments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog/includes/Commentreplies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>

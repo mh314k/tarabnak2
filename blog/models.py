@@ -165,6 +165,11 @@ class Comment(models.Model):
         verbose_name='نام نظردهنده',
         default='کاربر ناشناس'
     )
+    CommenterEmail = models.EmailField(
+        verbose_name='پست الکترونیکی شما',
+        help_text="برای ارتباط ما با شما لطفا پر شود",
+        blank=True
+    )
     CommentBody = models.TextField(
         max_length=1000,
         verbose_name='متن نظر',
@@ -172,7 +177,9 @@ class Comment(models.Model):
     )
     CommentTime = models.DateTimeField(
         verbose_name='زمان نظر دادن',
-        auto_created=True
+        auto_now_add=True,
+        null=True,
+        blank=True
     )
 
     class Meta:

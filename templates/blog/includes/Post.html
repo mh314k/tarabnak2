@@ -12,6 +12,19 @@
         <a href="{% url 'blog:tag' tag.name %}">{{ tag.name }}</a>
     {% endif %}
     {% endfor %}
+
+
+<div class="postBox card horizontal hoverable center-align">
+<p>نظر بدهید:</p>
+<span class="center-align">
+<form action="" method="post">
+    {{ form.as_p }}
+    {% csrf_token %}
+    <input type="submit" value="ثبت نظر">
+</form>
+</span>
+
+</div>
 <p>نظرها: {{ Post.COMMENTS.count }} نظر</p>
 {% for Comment in Comments %}
 {% include 'blog/includes/Comments.html' %}
