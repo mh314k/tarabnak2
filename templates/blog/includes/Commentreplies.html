@@ -1,20 +1,18 @@
 {% load jformat %}
-<div class="mg-r-25">
+<div class="mg-r-100">
 <h4>{{ Comment.CommenterName }} پاسخ داد:</h4>
 <p>{{ Comment.CommentTime|jformat:"%A %d %B %Y %H:%M" }}</p>
 <p>{{ Comment.CommentBody|safe }}</p>
-<div class="postBox card horizontal hoverable center-align">
+
 <p>پاسخ بدهید:</p>
-<span class="center-align">
+
 <form action="" method="post">
     {{ form.as_p }}
     <input type="hidden" name="reply" value="{{ Comment.id }}">
     {% csrf_token %}
     <input type="submit" value="ثبت پاسخ">
 </form>
-</span>
 
-</div>
 {% for Reply in Comment.REPLIES.all %}
 {% include "blog/includes/Commentreplies.html" with Comment=Reply %}
 {% endfor %}</div>

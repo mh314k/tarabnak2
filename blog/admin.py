@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Post,Comment, Category
+from .models import Post,Comment, Category, Slider
 import datetime
 
 
@@ -44,4 +44,4 @@ class PostModelAdmin(admin.ModelAdmin):
                 do_duplicate]
 
 
-admin.site.register([Comment,Category])
+admin.site.register([Comment,Category,Slider])

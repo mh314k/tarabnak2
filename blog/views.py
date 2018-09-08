@@ -42,7 +42,7 @@ def postView(request,year,month,day,slug):
             comm1 = Comment()
             comm1 = form1.save(commit=False)
             comm1.PostTo=post
-            if request.POST['reply']:
+            if request.POST['reply']!="":
                 r=Comment.objects.filter(pk=int(request.POST['reply'])).first()
                 comm1.CommentTo=r
             comm1.save()

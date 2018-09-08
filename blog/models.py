@@ -10,6 +10,24 @@ def user_directory_path(instance, filename):
     # file will be uploaded to MEDIA_ROOT/user_<id>/<filename>
     return 'user_{0}/{1}'.format(instance.Author.id, filename)
 
+def user_path_for_posts(instance, filename):
+    """
+
+    :type instance: Post
+    """
+    # file will be uploaded to MEDIA_ROOT/user_<id>/<filename>
+    ext = str(filename).split('.')[-1]
+    return 'user_{0}/posts/{1}.{2}'.format(instance.Author.username, str(hash(filename)),ext)
+
+def user_path_for_slides(instance, filename):
+    """
+
+    :type instance: Slider
+    """
+    # file will be uploaded to MEDIA_ROOT/user_<id>/<filename>
+    ext = str(filename).split('.')[-1]
+    return 'user_{0}/slides/{1}.{2}'.format(instance.Commiter.username, str(hash(filename)),ext)
+
 class Category(models.Model):
     Name = models.CharField(
         max_length=200,
@@ -93,7 +111,7 @@ class Post(models.Model):
     )
     Image = models.ImageField(
         verbose_name='تصویر پست',
-        upload_to=user_directory_path,
+        upload_to=user_path_for_posts,
         null=True,
         blank=True
     )
@@ -136,7 +154,7 @@ class Comment(models.Model):
         max_length=1,
         verbose_name='وضعیت نظر',
         choices=acptChoices,
-        default='N'
+        default='A'
     )
     PostTo = models.ForeignKey(
         Post,
@@ -191,3 +209,44 @@ class Comment(models.Model):
         return "نظر توسط {} برای {}".format(self.CommenterName, self.PostTo.Title)
 
 
+class Slider(models.Model):
+    Publish = models.BooleanField(
+        verbose_name='منتشر شده',
+        default=True,
+    )
+    Title = models.CharField(
+        max_length=200,
+        verbose_name='عنوان اسلاید',
+        null=True
+    )
+    Commiter = models.ForeignKey(
+        User,
+        on_delete=models.CASCADE,
+        related_name='SLIDES',
+        verbose_name='اسلاید گذار',
+        null=True
+    )
+    Body = HTMLField(
+        max_length=2000,
+        verbose_name='متن اسلاید',
+        null=True
+    )
+    Link = models.URLField(
+        verbose_name='لینک اسلاید',
+        null=True
+    )
+    Image = models.ImageField(
+        verbose_name='تصویر اسلاید',
+        upload_to=user_path_for_slides,
+    )
+    class Meta:
+        verbose_name = "اسلاید"
+        verbose_name_plural = 'اسلایدها'
+
+    def __str__(self):
+        a=""
+        if self.Title==None:
+            a="بدون عنوان"
+        else:
+            a=self.Title
+        return "اسلاید {}".format(a)

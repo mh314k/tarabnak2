@@ -2,60 +2,38 @@
 {% load jformat %}
 {% load static %}
 {% load categories %}
-
+{% load slides %}
 {% block title %}طربناک صفحه اصلی{% endblock %}
 
 
 {% block content %}
 
 	<main>
+    {% getSlides as slides %}
 		<div class="sliderIndex">
 			<div class="owl-carousel mainSlider">
+
+                {% for slide in slides %}
 				<div class="slide">
-					<img src="{% static "img/97800.jpg" %}" alt="Slide 1">
+					<img src="{{ slide.Image.url }}" alt="Slide 1">
 					<div class="caption">
-						<h4 class="title iryekan">عنوان اول</h4>
-						<p>
-							خیز و در کاسه ی سر آب طربناک انداز پیشتر زانکه شود کاسه سر خاک انداز
-							خیز و در کاسه ی سر آب طربناک انداز پیشتر زانکه شود کاسه سر خاک انداز
-							خیز و در کاسه ی سر آب طربناک انداز پیشتر زانکه شود کاسه سر خاک انداز
-						</p>
-						<a href="#" class="btn btn-outline slideBtn btn-rounded btn-white left mg-t-15">
-							ادامه مطلب
+                        {% if slide.Title %}
+                            <h4 class="title iryekan">{{ slide.Title }}</h4>
+                        {% endif %}
+                    {% if slide.Body %}
+                        <p>{{ slide.Body|truncatewords:50|safe }}</p>
+                    {% endif %}
+                    {% if slide.Link %}
+                        <a href="{{ slide.Link }}" class="btn btn-outline slideBtn btn-rounded btn-white left mg-t-15">
+							مشاهده
 							<i class="do0k-chevron-left2"></i>
 						</a>
+                    {% endif %}
+
 					</div>
 				</div>
-				<div class="slide">
-					<img src="{% static "img/7628887.jpg" %}" alt="Slide 1">
-					<div class="caption">
-						<h4 class="title iryekan">عنوان دوم</h4>
-						<p>
-							خیز و در کاسه ی سر آب طربناک انداز پیشتر زانکه شود کاسه سر خاک انداز
-							خیز و در کاسه ی سر آب طربناک انداز پیشتر زانکه شود کاسه سر خاک انداز
-							خیز و در کاسه ی سر آب طربناک انداز پیشتر زانکه شود کاسه سر خاک انداز
-						</p>
-						<a href="#" class="btn btn-outline slideBtn btn-rounded btn-white left mg-t-15">
-							ادامه مطلب
-							<i class="do0k-chevron-left2"></i>
-						</a>
-					</div>
-				</div>
-				<div class="slide">
-					<img src="{% static "img/nature-gress-wallpaper.jpg" %}" alt="Slide 1">
-					<div class="caption">
-						<h4 class="title iryekan">عنوان سوم</h4>
-						<p>
-							خیز و در کاسه ی سر آب طربناک انداز پیشتر زانکه شود کاسه سر خاک انداز
-							خیز و در کاسه ی سر آب طربناک انداز پیشتر زانکه شود کاسه سر خاک انداز
-							خیز و در کاسه ی سر آب طربناک انداز پیشتر زانکه شود کاسه سر خاک انداز
-						</p>
-						<a href="#" class="btn btn-outline slideBtn btn-rounded btn-white left mg-t-15">
-							ادامه مطلب
-							<i class="do0k-chevron-left2"></i>
-						</a>
-					</div>
-				</div>
+                {% endfor %}
+
 			</div>
 			<div class="navSlider">
 				<div class="owl-navs"></div>
